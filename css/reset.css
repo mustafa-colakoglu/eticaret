@@ -1,0 +1,25 @@
+html,body { margin:0;height:100%;font-family: 'Roboto', sans-serif;background: url("../img/1.png"); }
+
+h1,h2,h3,h4,h5,h6,a,p,span,img,button,
+text,label,ul,li,div,strong,input,textarea,form,
+tbody,thead,tfoot,tr,td,th,font,pre,i ,video,audio,
+header,footer,section,nav,article,aside,fieldset { box-sizing:border-box;-moz-box-sizing:border-box;margin:0;padding:0;outline:none; }
+
+*:focus , *:before , *:after { box-sizing:border-box;-moz-box-sizing:border-box;margin:0;padding:0;outline:none; }
+
+table {border-collapse:collapse;border-spacing:0;}
+ul,li { list-style:none; }
+a { text-decoration:none; }
+.clear { clear:both; }
+
+
+/* Inputs */
+input {  }
+input:hover {  }
+input:focus {  }
+
+textarea {  }
+textarea:hover {  }
+textarea:focus {  }
+
+/* Butons */

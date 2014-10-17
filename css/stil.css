@@ -1,0 +1,360 @@
+#genel {  }
+.genel { width:960px;margin:0 auto;background:#eee;overflow:hidden; }
+
+/* Header */
+header { background:url('../img/tweed.png');border-bottom:1px solid #ddd }
+header h1.logo { 
+				text-align:center;
+				padding-bottom:5px;
+				font-size:35px;
+				letter-spacing:1px;
+				color:#eee;
+				text-shadow:2px 3px 2px #999;
+		}
+/* 
+	Buton
+ */
+ .buton {
+									background:lightgreen;
+									padding:12px;
+									font-size:16px;
+									font-weight:bold;
+									border:1px solid #ccc;
+									border-radius:5px;
+									color:#555;
+									width:260px;
+									text-align:center;
+									text-shadow:2px 2px 30px #fff;
+									transition:all 0.3s;
+									cursor:pointer;
+									letter-spacing:1px;
+ }
+/*
+	input
+*/
+.textt {
+			border:1px solid #ccc;
+			padding:8px;
+			border-radius:2px;
+			width:500px;
+			background:#eee;
+			transition:background 0.5s;
+			font-size:15px;
+			font-family: 'Roboto', sans-serif;
+			font-weight:500;
+			margin-bottom:10px;
+}
+.textt:focus { padding:8px;margin-bottom:10px; }
+
+/*Wrap*/
+.wrap {
+		
+		background:#fff;
+		margin-top:10px;
+		padding:10px;
+		overflow:hidden;
+		margin-bottom:10px;
+	}
+.wrap ul { float:left; }
+.wrap form { float:left; }
+.wrap input { 
+			border:1px solid #ccc;
+			padding:8px;
+			border-radius:2px;
+			width:500px;
+			background:#eee;
+			transition:background 0.5s;
+			font-size:15px;
+			font-family: 'Roboto', sans-serif;
+			font-weight:500;
+			}
+.wrap input:focus { background:#fefefe;border-color:#eee; }
+.wrap ul {
+			float:right;
+		}
+.wrap ul li {
+			float:left;
+			text-align:center;
+			margin-right:10px;
+		}
+.wrap ul li a { 
+			display:block;
+			color:#555;
+			text-align:center;
+			border-radius:2px;
+			padding:10px 15px 10px 15px;
+		}
+.wrap ul li a:hover {
+				background:#eee;
+				color:#222;
+			}
+.wrap ul li.ilanVerButton a {
+		background:lightgreen;
+		padding:10px;
+		font-size:18px;
+		font-weight:500;
+		border:1px solid #ccc;
+		border-radius:5px;
+		color:#555;
+		text-align:center;
+		width:150px;
+		text-shadow:2px 2px 30px #fff;
+		transition:all 0.3s;
+		cursor:pointer;
+}
+/* Section */
+section {
+	background:#fff;
+	overflow:hidden;
+	margin-bottom:10px;
+}
+section .sol { 
+			width:220px;
+			float:left;
+			border-right:1px solid #999;
+			padding:10px;
+			height:450px;
+		}
+		
+	section .sol ul li a { padding:3px;display:block;color:#2980b9;transition:all 0.2s; }
+	section .sol ul li a:hover { margin-left:3px;text-decoration:underline; }
+
+section .sag {
+			width:734px;
+			float:right;
+			padding:10px 10px 0 10px;
+			padding-top:13px;
+		} 
+	section .sag article.urun { border:1px solid #ccc;width:165px;float:left;margin:0 0 10px 10px;border-radius:3px; }
+	section .sag article.urun:hover { border-color:#999; }
+	section .sag article.urun a { width:160px;display:block;padding:10px;color:#222; }
+	section .sag article.urun a span.resim { height:120px;overflow:hidden;display:block; }
+	section .sag article.urun a img{ width:100%;float:left;height:120px;	 }
+	section .sag article.urun a h3 { letter-spacing:0.6px;padding:2px; }
+	section .sag article.urun a span.not { max-width:160px;margin:0 auto;padding:2px;padding-top:0;display:block; }
+	section .sag article.urun a span.fiyat { max-width:160px;margin:0 auto;padding:2px;padding-top:0;display:block; }
+	
+	section .sag .tumu  {
+		margin-bottom:20px;
+		margin-top:20px;
+	}	
+	section .sag .tumu  a {
+		display:block;
+		border:1px solid red;
+		margin:0 auto;	
+		background:lightgreen;
+		padding:10px;
+		font-size:24px;
+		font-weight:bold;
+		border:1px solid #ccc;
+		border-radius:5px;
+		color:#555;
+		text-align:center;
+		width:300px;
+		text-shadow:2px 2px 30px #fff;
+		transition:all 0.3s;
+	}
+
+/* Slide */
+.slideHome { 
+			margin-top:10px;
+			background:#fff;
+			padding:10px;
+			position:relative;
+		}
+.slideIn { 
+			background:#fff;
+			overflow:hidden;
+			max-height:150px;
+		}
+.slideHome .firsat {
+		margin:0 auto;	
+		background:lightgreen;
+		padding:3px 5px 3px 5px;
+		font-size:16px;
+		font-weight:bold;
+		border:1px solid #ccc;
+		border-radius:5px;
+		color:#555;
+		text-align:center;
+		text-shadow:2px 2px 30px #fff;
+		top:-18px;left:10px;
+		position:absolute;
+		opacity:.8;
+		width:80px;
+	}
+.slideHome .slideUrun {
+		width:220px;
+		float:left;
+		margin-left:10px;
+		transition:all 0.1s;
+	}
+	
+.slideHome .slideUrun:hover {
+				transform:scale(1.1);
+				
+	}
+.slideHome .slideUrun a {
+		position:relative;
+		display:block;
+		overflow:hidden;
+	}
+.slideHome .slideUrun a:hover > span {
+		left:0;top:0;
+	}
+.slideHome .slideUrun a img {
+		width:100%;
+		box-shadow:1px 1px 1px #999;
+		height:150px;
+	}
+.slideHome .slideUrun a span { position:absolute;left:0;top:-150px;background:#eee;width:100%;
+							transition:all .1s;height:150px;padding:5px;opacity:.8;color:#111;}
+							
+.slideHome .sagOk,.slideHome .solOk{ position:absolute;background:#555;color:#fff;padding:16px 25px;font-size:32px;
+									display:block;z-index:99;cursor:pointer;top:30%;font-weight:bold;opacity:.6;}
+.slideHome .solOk:hover,.slideHome .sagOk:hover { opacity:.9; }
+.slideHome .sagOk { right:0px; }
+.slideHome .solOk { left:0px; }
+
+/* Footer */
+footer { 
+		padding:10px !important;
+		background:#fff;
+		margin-top:10px !important;
+		border-top-left-radius:3px;
+		border-top-right-radius:3px;
+		}
+
+		/* Giris.html */
+		.login { width:100%;height:100%;padding-top:25px;background: url("../img/1.png"); }
+		.login .loginLogo { width:960px;margin:0 auto;overflow:hidden;position:relative;padding:20px; }
+		.login .loginLogo h1{ box-shadow:1px 1px 1px #ccc;width:220px;text-align:center;padding:10px 0 10px 0;border-radius:3px;color:#555;text-shadow:1px 1px 1px #fff;}
+		.login .loginLogo span{ position:absolute;top:60px;opacity:.5;left:180px;background:lightgreen;border-radius:100%;padding:0px 4px 2px 4px;color:#fff;width:55px;text-align:center;letter-spacing:1px;}
+		.login .in {width:960px;margin:0 auto;padding:10px;overflow:hidden;}
+		.login .in .logLeft { float:left; }
+		.login .in .logLeft ul li { padding:10px; }
+		.login .in .logLeft span{ display:block;font-size:16px;font-weight:500;color:#555;padding:5px; }
+		.login .in .logLeft input{ border-radius:5px;width:260px;padding:8px;border:1px solid #eee;font-size:13px;box-shadow:1px 1px 1px #ccc}
+		.login .in .logLeft button{ 
+									background:lightgreen;
+									padding:12px;
+									font-size:16px;
+									font-weight:bold;
+									border:1px solid #ccc;
+									border-radius:5px;
+									color:#555;
+									width:260px;
+									text-align:center;
+									text-shadow:2px 2px 30px #fff;
+									transition:all 0.3s;
+									cursor:pointer;
+									letter-spacing:1px;
+								}
+		.login .in .logLeft button:hover{ 	background:green;
+										color:#fefefe;	 }
+		.login .in .logLeft a.unut { color:#999;}
+		.login .in .logLeft a.unut:hover { text-decoration:underline; }
+		
+		.login .in .logRight { float:right;padding:20px;box-shadow:1px 1px 5px 1px #aaa }
+		.login .in .logRight h1 { color:#555;letter-spacing:2px;margin-bottom:10px; }
+		.login .in .logRight button { 
+									background:lightgreen;
+									padding:12px;
+									font-size:24px;
+									font-weight:bold;
+									border:1px solid #ccc;
+									border-radius:5px;
+									color:#555;
+									margin:10px;
+									text-align:center;
+									width:250px;
+									text-shadow:2px 2px 30px #fff;
+									transition:all 0.3s;
+									cursor:pointer;
+							}
+		.login .in .logRight button:hover {
+										background:green;
+										color:#fefefe;
+									}
+		
+		/* Üye Ayarlar */
+		.uyeOzel .anaTab{
+			border-bottom:1px solid #999;
+			overflow:hidden;
+			padding-top:10px;
+		}
+		.uyeOzel .anaTab ul li a { 			
+			border:1px solid #999;
+			padding:10px;
+			margin-left:10px;
+			border-bottom-color:transparent;
+			border-top-left-radius:3px;
+			border-top-right-radius:3px;
+			color:#555;
+			display:block;
+			font-weight:500;
+		}
+		
+		.uyeOzel .anaTab ul li {
+			float:left;
+		}
+		.uyeOzel .anaTab ul li.aktif {
+			background:#eff3f3;
+		}
+		
+		.uyeOzel .uyeSol {
+			float:left;
+			width:16%;
+			padding:10px;
+		}
+			.uyeOzel .uyeSol ul { box-shadow: 1px 1px 1px #ccc; }
+			.uyeOzel .uyeSol ul li a{
+				background:#eee;
+				padding:10px;
+				border-radius:1px;
+				border-bottom:1px solid #aaa;
+				display:block;
+				color:#666;
+			}
+			.uyeOzel .uyeSol ul li:last-child a {
+				border-bottom:1px solid transparent;
+			}
+			.uyeOzel .uyeSol ul li a.aktif {
+				background:#eff3f3;
+			}
+		
+		.uyeOzel .uyeSag {
+			float:right;
+			width:84%;
+			padding:10px;
+		}
+		
+		/* Mesaj */
+		.mesaj a { display:block;background:#aaa;color:#fff;border-radius:3px;width:80%;padding:5px;font-weight:300;margin-bottom:2px; }
+		
+		.mesajLister {
+			overflow:auto;
+			width:100% !important;
+			max-height:500px;
+			border:1px solid #ccc;
+			padding:8px;
+			border-radius:2px;
+			width:500px;
+			background:#eee;
+			font-family: 'Roboto', sans-serif;
+			margin-bottom:10px;
+		}
+		.mesajLister::-webkit-scrollbar {width:8px;}
+		.mesajLister::-webkit-scrollbar-thumb {background:#999;border-radius:2px}
+		
+		.mesajLister .mesajMot { border:1px solid #ccc;padding:5px;border-radius:5px;margin-bottom:5px; }
+		.mesajLister .mesajMot .diyor { border-bottom:1px solid #ccc;display:inline;padding:5px 5px 0 5px; }
+		.mesajLister .mesajMot .metin { padding:5px; }
+		.mesajLister ~ .mesajAt{ width:100% !important;overflow:auto; }
+		.konu { padding:5px;font-weight:500;background:#eee;margin-bottom:5px; }
+		.mesajSat,.mesajSat + a { float:left;margin:5px;color:#2980b9; }
+		.mesajSat:hover,.mesajSat + a:hover { text-decoration:underline; }
+		
+		/* İsim-Soyisim */
+		form.isimDegistir * { display:block; }
+		form.isimDegistir input {  }
